@@ -14,10 +14,13 @@
 .darkheader{
     color: white;
     font-size: 26px;
+    font-weight: bolder;
 }
 .lightheader{
 color: #141312;
 font-size: 26px;
+font-weight: bolder;
+
 }
 .lightmyheader{
     color: #141312;
@@ -124,6 +127,6 @@ font-size: 26px;
 @media screen and (max-width: 768px) {
     .toggleDiv{
         width: 573px;
-        
+
     }
 }

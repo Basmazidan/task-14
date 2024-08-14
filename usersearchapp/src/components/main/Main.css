@@ -181,9 +181,10 @@ text-decoration: none;
     font-size: 15px;
 
 }
-@media only screen and (max-width: 376px) {
+@media screen and (max-width: 375px) {
+
     .main-div{
-      width: 375px;
+      width: 573px;
     }
     .topdiv{
     width: 100%;
@@ -226,3 +227,36 @@ text-decoration: none;
 
 
 }
+
+
+@media screen and (max-width: 768px) {
+    .main-div{
+        width: 573px;
+        height: 481px;
+    }
+    .avatar-div img{
+        width: 117px;
+        height: 117px;
+    }
+
+    .middlediv1{
+        padding-left: 0;
+    }
+    .biodiv{
+        padding-left: 30px;
+    }
+    #user-name {
+        padding: 0;
+    }
+    .bottomdiv{
+        padding-left: 40px;
+        row-gap: 5px
+        ;
+    }
+
+
+}
+
+
+
+

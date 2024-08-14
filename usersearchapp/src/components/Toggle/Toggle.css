@@ -115,9 +115,15 @@ font-size: 26px;
     align-items: center;
     justify-content: space-between;
 }
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 375px) {
     .toggleDiv{
         width: 345px;
         height: 60px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .toggleDiv{
+        width: 573px;
+        
     }
 }

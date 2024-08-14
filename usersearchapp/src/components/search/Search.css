@@ -47,7 +47,7 @@ color: white;
 .lightinpsearch{
     background-color: #FEFEFE;
 }
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 375px) {
     .p{
         width: 370px;
         height: 60px;
@@ -62,5 +62,11 @@ color: white;
 
 
 
+    }
+}
+@media screen and (max-width: 768px) {
+    .p{
+        width: 573px;
+        height: 69px;
     }
 }

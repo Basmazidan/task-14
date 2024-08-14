@@ -126,7 +126,7 @@ font-weight: bolder;
 }
 @media screen and (max-width: 768px) {
     .toggleDiv{
-        width: 500px;
+        width: 300px;
 
     }
 }

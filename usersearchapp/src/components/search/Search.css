@@ -9,9 +9,9 @@
     background-color: #F6F8FF;
 
 }
-
 .darksearch{
     background-color: #1E2A47;
+
 
 }
 .lightsearch{
@@ -35,7 +35,13 @@ border: none;
 color: white;
 }
 
-.inp-search{
+.dark::placeholder{
+    color: white;
+}
+.light::placeholder{
+    color: gray;
+}
+input{
     width: 350px;
     height: 25px;
     border: none;
@@ -47,9 +53,9 @@ color: white;
 .lightinpsearch{
     background-color: #FEFEFE;
 }
-@media only screen and (max-width: 375px) {
+@media  screen and (max-width: 501px) {
     .p{
-        width: 370px;
+        width: 400px;
         height: 60px;
     }
     .darkbtn{
